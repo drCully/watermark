@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 export const timekeeperApi = createApi({
   reducerPath: 'timekeeperApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://boiling-river-55915.herokuapp.com/api/',
+    baseUrl: 'https://dc-claims.herokuapp.com/api/',
     prepareHeaders: (headers, { getState }) => {
       const token = getState().auth.user.accessToken;
       if (token) {

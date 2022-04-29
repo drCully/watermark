@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { format, parseISO } from 'date-fns';
 import { toast } from 'react-toastify';
-import { FaFileAlt, FaRegEdit, FaRegTrashAlt } from 'react-icons/fa';
+import { FaRegEdit, FaRegTrashAlt } from 'react-icons/fa';
 import Pagination from '@material-ui/lab/Pagination';
 import {
   useTimesQuery,

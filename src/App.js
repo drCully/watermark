@@ -68,7 +68,7 @@ const App = () => {
             <Link to={'/'} className='navbar-brand'>
               <img src='cm-logo.png' height='30' alt='' loading='lazy' />
               <span className='ms-2 me-5'>
-                Time<b>Keeper</b>
+                Claims<b>Manager</b>
               </span>
             </Link>
             <button

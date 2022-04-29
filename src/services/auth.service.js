@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://boiling-river-55915.herokuapp.com/api/auth/';
+const API_URL = 'https://dc-claims.herokuapp.com/api/auth/';
 //const API_URL = process.env.REACT_APP_API_URL + 'auth/';
 
 const register = (
